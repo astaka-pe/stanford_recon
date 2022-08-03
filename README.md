@@ -56,7 +56,7 @@ Poisson surface reconstructionでは点群密度の低い領域（スキャナ�
     <td width="24%">頂点密度マップ</td>
     <td width="24%">最終出力</td>
   </tr>
-  <tr>
+  <tr bgcolor=black>
     <td width="24%"><img src="fig/merge.png" height="100%"></td>
     <td width="24%"><img src="fig/recon.png" height="100%"></td>
     <td width="24%"><img src="fig/density.png" height="100%"></td>
