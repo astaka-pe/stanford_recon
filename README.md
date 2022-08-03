@@ -9,6 +9,8 @@ open3d
 pymeshlab==2021.10  # 2022.2以降ではフィルタ名が大幅に変更されているため、大量の警告が発生する
 ```
 
+`data/raw/`以下に、配布されているレンジスキャンデータ`モデル名/data/**.ply`を入れる。
+
 ## 位置合わせ
 
 ### メモ
@@ -29,8 +31,8 @@ $3 \times 3$
     <td width="48%">位置合わせ後</td>
   </tr>
   <tr>
-    <td width="48%"><img src="fig/before-reg.png" height="300"></td>
-    <td width="48%"><img src="fig/after-reg.png" height="300"></td>
+    <td width="48%"><img src="fig/before-reg.png" height="200"></td>
+    <td width="48%"><img src="fig/after-reg.png" height="200"></td>
   </tr>
 </table>
 
@@ -57,10 +59,10 @@ Poisson surface reconstructionでは点群密度の低い領域（スキャナ�
     <td width="24%">最終出力</td>
   </tr>
   <tr bgcolor=black>
-    <td width="24%"><img src="fig/merge.png" height="100%"></td>
-    <td width="24%"><img src="fig/recon.png" height="100%"></td>
-    <td width="24%"><img src="fig/density.png" height="100%"></td>
-    <td width="24%"><img src="fig/final.png" height="100%"></td>
+    <td width="24%"><img src="fig/merge.png" width="100%"></td>
+    <td width="24%"><img src="fig/recon.png" width="100%"></td>
+    <td width="24%"><img src="fig/density.png" width="100%"></td>
+    <td width="24%"><img src="fig/final.png" width="100%"></td>
   </tr>
 </table>
 
