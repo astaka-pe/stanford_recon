@@ -1,0 +1,15 @@
+python align.py -i data/dragon-stand/raw/dragonStandRight_0.ply --para "-0.00042573013 -3.6194921e-05 -0.00096614892 0.00068114395 -0.00029109037 -0.00073466112 -0.99999946";
+python align.py -i data/dragon-stand/raw/dragonStandRight_24.ply --para "-0.00087644532 -2.7567148e-07 -0.0010457705 -0.00046636924 -0.20917222 0.00091034989 -0.97787827";
+python align.py -i data/dragon-stand/raw/dragonStandRight_48.ply --para "-0.0010015778 -3.7185848e-05 -0.00049660774 0.00065300596 -0.40700561 0.0014209391 -0.91342431";
+python align.py -i data/dragon-stand/raw/dragonStandRight_72.ply --para "-0.0011086911 -0.0001244843 9.4951596e-05 0.0009286101 -0.58797526 0.0021693073 -0.8088755";
+python align.py -i data/dragon-stand/raw/dragonStandRight_96.ply --para "-0.0011801384 7.8313053e-05 0.00051819533 -0.00031349197 -0.74362481 0.0036340714 -0.66858715";
+python align.py -i data/dragon-stand/raw/dragonStandRight_120.ply --para "-0.00047174841 2.7470291e-05 0.001306681 -0.0019912063 0.86631584 -0.0052624731 0.49946487";
+python align.py -i data/dragon-stand/raw/dragonStandRight_144.ply --para "-0.00024047587 2.3469329e-06 0.0013067257 -0.0014321328 0.95106119 -0.0055995956 0.30894855";
+python align.py -i data/dragon-stand/raw/dragonStandRight_168.ply --para "0.00013903482 2.3320317e-06 0.0012068693 -0.0010564144 0.99458277 -0.0057937121 0.10378089";
+python align.py -i data/dragon-stand/raw/dragonStandRight_192.ply --para "0.00065993704 3.2164156e-05 0.0010694228 -0.0014640641 0.99440849 -0.0062254779 -0.10540795";
+python align.py -i data/dragon-stand/raw/dragonStandRight_216.ply --para "0.0012203939 3.9376318e-05 0.00059873052 -0.0026810274 0.95097119 -0.0054346877 -0.30922011";
+python align.py -i data/dragon-stand/raw/dragonStandRight_240.ply --para "0.001289241 6.8694353e-05 0.00015468337 -0.0020414738 0.8659752 -0.0051846202 -0.50005573";
+python align.py -i data/dragon-stand/raw/dragonStandRight_264.ply --para "0.0011874288 9.2387199e-06 -0.00041347987 -0.001492786 0.74340212 -0.0039112591 -0.66883165";
+python align.py -i data/dragon-stand/raw/dragonStandRight_288.ply --para "0.0008235313 -3.3557415e-05 -0.00086880103 -0.00066325086 0.58733112 -0.0038010729 -0.80933756";
+python align.py -i data/dragon-stand/raw/dragonStandRight_312.ply --para "0.0003376957 -0.00016601384 -0.0011544186 -0.00069652498 0.40633875 -0.0024920055 -0.91371882";
+python align.py -i data/dragon-stand/raw/dragonStandRight_336.ply --para "0.00012485497 3.9190054e-05 -0.001269076 -0.00070826244 0.20744255 -0.001994963 -0.9782449"
