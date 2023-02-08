@@ -1,0 +1,50 @@
+python recon.py -i \
+#data/dragon-stand/raw/dragonStandRight_0-aligned.ply \
+#data/dragon-stand/raw/dragonStandRight_24-aligned.ply \
+#data/dragon-stand/raw/dragonStandRight_48-aligned.ply \
+#data/dragon-stand/raw/dragonStandRight_72-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_96-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_120-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_144-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_168-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_192-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_216-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_240-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_264-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_288-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_312-aligned.ply \
+data/dragon-stand/raw/dragonStandRight_336-aligned.ply \
+data/dragon-side/raw/dragonSideRight_0-aligned.ply \
+data/dragon-side/raw/dragonSideRight_24-aligned.ply \
+data/dragon-side/raw/dragonSideRight_48-aligned.ply \
+data/dragon-side/raw/dragonSideRight_72-aligned.ply \
+#data/dragon-side/raw/dragonSideRight_96-aligned.ply \
+#data/dragon-side/raw/dragonSideRight_120-aligned.ply \
+#data/dragon-side/raw/dragonSideRight_144-aligned.ply \
+#data/dragon-side/raw/dragonSideRight_168-aligned.ply \
+data/dragon-side/raw/dragonSideRight_192-aligned.ply \
+data/dragon-side/raw/dragonSideRight_216-aligned.ply \
+data/dragon-side/raw/dragonSideRight_240-aligned.ply \
+data/dragon-side/raw/dragonSideRight_264-aligned.ply \
+data/dragon-side/raw/dragonSideRight_288-aligned.ply \
+data/dragon-side/raw/dragonSideRight_312-aligned.ply \
+data/dragon-side/raw/dragonSideRight_336-aligned.ply \
+#data/dragon-up/raw/dragonUpRight_0-aligned.ply \
+#data/dragon-up/raw/dragonUpRight_24-aligned.ply \
+#data/dragon-up/raw/dragonUpRight_48-aligned.ply \
+#data/dragon-up/raw/dragonUpRight_72-aligned.ply \
+#data/dragon-up/raw/dragonUpRight_96-aligned.ply \
+#data/dragon-up/raw/dragonUpRight_120-aligned.ply \
+#data/dragon-up/raw/dragonUpRight_144-aligned.ply \
+data/dragon-up/raw/dragonUpRight_168-aligned.ply \
+data/dragon-up/raw/dragonUpRight_192-aligned.ply \
+data/dragon-up/raw/dragonUpRight_216-aligned.ply \
+data/dragon-up/raw/dragonUpRight_240-aligned.ply \
+data/dragon-up/raw/dragonUpRight_264-aligned.ply \
+data/dragon-up/raw/dragonUpRight_288-aligned.ply \
+data/dragon-up/raw/dragonUpRight_312-aligned.ply \
+data/dragon-up/raw/dragonUpRight_336-aligned.ply \
+--invert 0 \
+-d 8 \
+--hole 0.03 \
+-o dragon

@@ -10,6 +10,8 @@ def get_parser():
     parser.add_argument("-i", "--input", type=str, nargs="*", required=True)
     parser.add_argument("--invert", type=int, default=0)
     parser.add_argument("-o", "--output", type=str, required=True)
+    parser.add_argument("-d", "--depth", type=int, default=7)
+    parser.add_argument("--hole", type=float, default=0.06)
     args = parser.parse_args()
     return args
 
@@ -34,7 +36,7 @@ def main():
 
     """ Poisson surface reconstruction """
     rec_pcd = o3d.io.read_point_cloud("data/{}/recon/{}-merge.ply".format(args.output, args.output))
-    mesh, densities = o3d.geometry.TriangleMesh.create_from_point_cloud_poisson(rec_pcd, depth=7)
+    mesh, densities = o3d.geometry.TriangleMesh.create_from_point_cloud_poisson(rec_pcd, depth=args.depth)
     
     if args.invert:
         # invert orientation
@@ -51,7 +53,7 @@ def main():
     density_mesh.triangles = mesh.triangles
     density_mesh.triangle_normals = mesh.triangle_normals
     density_mesh.vertex_colors = o3d.utility.Vector3dVector(density_colors[:, :3])
-    vertices_to_remove = densities < np.quantile(densities, 0.06)
+    vertices_to_remove = densities < np.quantile(densities, args.hole)
     mesh.remove_vertices_by_mask(vertices_to_remove)
 
     o3d.io.write_triangle_mesh("data/{}/recon/{}-final.obj".format(args.output, args.output), mesh)

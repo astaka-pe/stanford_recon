@@ -1,0 +1,15 @@
+python align.py -i data/dragon-side/raw/dragonSideRight_0.ply --para "-0.014957596 0.11119381 -0.12278787 -0.70811808 0.018737761 0.077341057 -0.70159537";
+python align.py -i data/dragon-side/raw/dragonSideRight_24.ply --para "-0.01519721 0.11105344 -0.12267428 -0.70907241 -0.12693572 -0.071017414 -0.68997103";
+python align.py -i data/dragon-side/raw/dragonSideRight_48.ply --para "-0.015546881 0.11045636 -0.12269107 -0.67788512 -0.2690022 -0.21552841 -0.6493513";
+python align.py -i data/dragon-side/raw/dragonSideRight_72.ply --para "-0.014891878 0.11172385 -0.12283277 -0.6217038 -0.39255586 -0.35143545 -0.57954919";
+python align.py -i data/dragon-side/raw/dragonSideRight_96.ply --para "-0.015010439 0.11120176 -0.12286139 0.5342986 0.50594068 0.47242168 0.48514616";
+python align.py -i data/dragon-side/raw/dragonSideRight_120.ply --para "-0.014845777 0.11052007 -0.12286217 0.42305398 0.59735769 0.57259053 0.36922786";
+python align.py -i data/dragon-side/raw/dragonSideRight_144.ply --para "-0.014686372 0.11113158 -0.12302579 0.2951107 0.65929186 0.65016091 0.235658";
+python align.py -i data/dragon-side/raw/dragonSideRight_168.ply --para "-0.014228571 0.1112754 -0.12310603 0.15234941 0.69359845 0.69793427 0.092728838";
+python align.py -i data/dragon-side/raw/dragonSideRight_192.ply --para "-0.013973228 0.11151122 -0.12313079 0.0033879208 0.69759643 0.71445 -0.053935166";
+python align.py -i data/dragon-side/raw/dragonSideRight_216.ply --para "-0.014221773 0.11087522 -0.12291695 -0.14467213 0.67267692 0.69710439 -0.20154701";
+python align.py -i data/dragon-side/raw/dragonSideRight_240.ply --para "-0.013744403 0.11127365 -0.12293795 -0.28792813 0.61623579 0.65160149 -0.33580694";
+python align.py -i data/dragon-side/raw/dragonSideRight_264.ply --para "-0.014151074 0.11189961 -0.12296852 -0.41742373 0.53145111 0.57893789 -0.45623252";
+python align.py -i data/dragon-side/raw/dragonSideRight_288.ply --para "-0.013668571 0.11159692 -0.12285628 -0.52858263 0.42712605 0.47894305 -0.55567735";
+python align.py -i data/dragon-side/raw/dragonSideRight_312.ply --para "-0.013515092 0.11132114 -0.12283868 -0.61593968 0.30368346 0.3587192 -0.63223028";
+python align.py -i data/dragon-side/raw/dragonSideRight_336.ply --para "-0.014057478 0.11111373 -0.12283005 -0.6764667 0.16524962 0.22285493 -0.68221778";
